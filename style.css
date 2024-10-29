@@ -102,31 +102,3 @@ footer {
 footer p {
     margin: 0;
 }
-
-/*informações das paginas dos produtos*/
-header {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
-    width: 100%;
-}
-header nav ul {
-    display: flex;
-    justify-content: center;
-}
-
-header nav li:first-child {
-    list-style-type: none;
-}
-
-header nav li a {
-    margin: 0 10rem;
-    text-decoration: none;
-    color: #ccc;
-    font-size: 2.2rem;
-}
-
-header nav li a:hover {
-    border-bottom: 1px solid aliceblue;
-}
