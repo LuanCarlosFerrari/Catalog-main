@@ -157,6 +157,28 @@ header nav li a:hover {
     text-align: center;
 }
 
+.etiqueta {
+    border: 1px solid #f7f1ee;
+    padding: 10px;
+    display: inline-block;
+    background-color: #FADBD8;
+  }
+  
+  .preco {
+    color: #E74C3C;
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .desconto {
+    border: 1px solid #D35400;
+    padding: 2px;
+    color: #E74C3C;
+    font-size: 18px; /* Ajuste o tamanho conforme necessário */
+    float: right;
+  }
+
 footer {
     background-color: #333;
     color: #fff;
