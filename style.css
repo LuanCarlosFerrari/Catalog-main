@@ -129,6 +129,12 @@ footer p {
     color: #E74C3C;
     font-size: 18px;
     float: right;
+    top: 20px;
+    right: 25px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    font-weight: bold;
+    transform-origin: center;
 }
 
 .preco-original {
@@ -140,6 +146,7 @@ footer p {
 .preco-desconto {
     font-size: 1.2em;
     color: red;
+    margin-right: 10px;
 }
 
 /* Comprar */
@@ -147,13 +154,16 @@ footer p {
     color: white;
     border: 1px solid #000000;
     padding: 10px;
-    display: inline-block;
     background-color: #000000;
     border-radius: 15px;
     margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
 }
 
 .badge {
+    display: none;
     position: absolute;
     top: 20px;
     right: 25px;
