@@ -173,4 +173,13 @@ footer p {
     100% { transform: scale(1); }
 }
 
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+@media (min-width: 769px) {
+    /* Estilos para telas maiores, como desktops */
+}
+
 
