@@ -45,8 +45,6 @@ h1 {
 
 .produtos__lista {
     list-style-type: none;
-}
-.produtos__lista {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -65,7 +63,7 @@ h1 {
     display: inline-block;
 }
 
-.produtos__item :hover {
+.produtos__item:hover {
     cursor: pointer;
 }
 
@@ -108,34 +106,44 @@ footer p {
     margin: 0;
 }
 
-/*etiqueta de desconto*/
-
+/* etiqueta de desconto */
 .etiqueta {
     border: 1px solid #f7f1ee;
     padding: 10px;
     display: inline-block;
     background-color: #FADBD8;
     border-radius: 15px;
-  }
-  
-  .preco {
+}
+
+.preco {
     color: #E74C3C;
-    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    font-size: 24px;
     font-weight: bold;
     margin-right: 10px;
-  }
-  
-  .desconto {
+    
+}
+
+.desconto {
     border: 1px solid #D35400;
     padding: 2px;
     color: #E74C3C;
-    font-size: 18px; /* Ajuste o tamanho conforme necessário */
+    font-size: 18px;
     float: right;
-  }
+}
 
-  /*Comprar*/
+.preco-original {
+    text-decoration: line-through;
+    font-size: 0.8em;
+    display: block;
+}
 
-  .Comprar {
+.preco-desconto {
+    font-size: 1.2em;
+    color: red;
+}
+
+/* Comprar */
+.Comprar {
     color: white;
     border: 1px solid #000000;
     padding: 10px;
@@ -143,17 +151,26 @@ footer p {
     background-color: #000000;
     border-radius: 15px;
     margin-top: 20px;
-  }
+}
 
-  .badge {
+.badge {
     position: absolute;
-    top: 25px;
-    right: 8px;
+    top: 20px;
+    right: 25px;
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 5px 5px;
     border-radius: 50%;
-    font-size: 34px;
+    font-size: 15px;
     font-weight: bold;
-    transform: rotate(45deg); 
-  }
+    animation: pulse 3s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+
