@@ -1,4 +1,4 @@
-/* Celular*/
+/* Video-Game */
 header {
     background-color: #000000;
     color: #fff;
@@ -6,6 +6,7 @@ header {
     padding: 2rem 0;
     width: 100%;
 }
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -26,158 +27,71 @@ header nav li a:hover {
     border-bottom: 1px solid aliceblue;
 }
 
-.detalhes-do-produto-celular {
+.produto__container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-.detalhes-do-produto-celular__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    flex-direction: center;
-    align-items: center;
-    flex: 0 1 calc(30% - 20px);
     max-width: 100rem;
     margin: 1rem;
     border: 1px solid #ccc;
     padding: 0.5rem;
-    text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height: auto;
-}
-.detalhes-do-produto-celular__content img {
-    max-width: 100%;
-    height: auto;
-}
-.detalhes-do-produto-celular__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.detalhes-do-produto-celular__informacoes {
-    text-align: center;
-}
-.detalhes-do-produto-celular {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.detalhes-do-produto-celular__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    flex-direction: center;
-    align-items: center;
-    flex: 0 1 calc(30% - 20px);
-    max-width: 100rem;
-    margin: 1rem;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height: auto;
-}
-.detalhes-do-produto-celular__content img {
-    max-width: 100%;
-    height: auto;
-}
-.detalhes-do-produto-celular__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.detalhes-do-produto-.detalhes-do-produto-celular {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.detalhes-do-produto-celular__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    flex-direction: center;
-    align-items: center;
-    flex: 0 1 calc(30% - 20px);
-    max-width: 100rem;
-    margin: 1rem;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height: auto;
-}
-.detalhes-do-produto-celular__content img {
-    max-width: 100%;
-    height: auto;
-}
-.detalhes-do-produto-celular__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.detalhes-do-produto-celular__informacoes {
-    text-align: center;
-}.detalhes-do-produto-celular {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.detalhes-do-produto-celular__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    flex-direction: center;
-    align-items: center;
-    flex: 0 1 calc(30% - 20px);
-    max-width: 100rem;
-    margin: 1rem;
-    border: 1px solid #ccc;
-    padding: 0.5rem;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    height: auto;
-}
-.detalhes-do-produto-celular__content img {
-    max-width: 100%;
-    height: auto;
-}
-.detalhes-do-produto-celular__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.detalhes-do-produto-celular__informacoes {
-    text-align: center;
-}__informacoes {
-    text-align: center;
+    min-height: 35rem;
+    max-height: 100%;
 }
 
-.etiqueta {
-    border: 1px solid #f7f1ee;
-    padding: 10px;
-    display: inline-block;
-    background-color: #FADBD8;
-  }
-  
-  .preco {
-    color: #E74C3C;
-    font-size: 24px; /* Ajuste o tamanho conforme necessário */
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .desconto {
-    border: 1px solid #D35400;
-    padding: 2px;
-    color: #E74C3C;
-    font-size: 18px; /* Ajuste o tamanho conforme necessário */
-    float: right;
-  }
+/*
+.detalhes-do-produto-celular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.produto__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    min-height: 35rem; 
+    max-height: 100%;
+}
+
+.produto__imagem {
+    flex: 1;
+    max-width: 50%;
+}
+
+.produto__imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.produto__informacoes {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.produto__informacoes h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.produto__informacoes p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.produto__informacoes h4 {
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 10px;
+}*/
 
 footer {
     background-color: #333;
